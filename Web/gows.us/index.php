@@ -169,7 +169,7 @@ if($hack_detection==false)
 		$msg5 = '<font color="#FFFFFF">Link for forums:</font> <input type="text" value="[url]http://gows.us/'.$target.'[/url]"></input>';
 		
 		
-		$con = mysql_connect("localhost","uploadwiz","redred");
+		$con = mysql_connect("localhost","null","null");
 		if (!$con)
 		  {
 		  die('Could not connect: ' . mysql_error());
